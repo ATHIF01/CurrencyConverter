@@ -1,0 +1,66 @@
+
+*,*:after,*:before{
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    -ms-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: Arial;
+    min-height: 100vh;
+    display: flex;
+    font-size: 16px;
+    margin: 0;
+    align-items: center;
+    justify-content: center;
+    background-image: url("./img/business-financial-concept-stack-money-background-flat-lay.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.container{
+    width: 600px;
+}
+h1{
+    font-size: 60px;
+    text-align: center;
+    font-weight: 800;
+    color: black;
+}
+.row{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.col{
+    width: 50%;
+
+}
+select,input{
+    height: 70px;
+    width: 100%;
+    margin-bottom: 15px;
+    font-size: 20px;
+    padding: 8px 15px;
+    font-weight: 700;
+    border-radius: 20px;
+}
+button{
+    width: 200px;
+    display: block;
+    padding: 10px;
+    margin:0 auto;
+    border-radius: 15px;
+    background-color: black;
+    color: #fff;
+    border: 0;
+    cursor: pointer;
+    font-size: 22px;
+}
+#output_currency{
+    color: red;
+}
+button:hover{
+    color: red;
+}
